@@ -1,4 +1,4 @@
-package com.hover.react.tester;
+package com.hululabs.hulupay;
 
 import android.app.Application;
 

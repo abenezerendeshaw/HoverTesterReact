@@ -44,8 +44,9 @@ export default class App extends Component<Props> {
 
 	async makeRequest() {
 		try {
-			extras = {"amount": "100", "other": "thing", "recipient": "43214324"};
-			var response = await RNHoverReactSdk.makeRequest("4255ec9a", extras);
+			// extras = {"amount": "100", "other": "thing", "recipient": "43214324"};
+			extras = {"amount": "10", "phonenumber": "+251912340172"};
+			var response = await RNHoverReactSdk.makeRequest("4c75b032", extras);
 			RNHoverReactSdk.showToast("received session result: " + response.uuid);
 			this.setState({ resultText: response.response_message });
 		} catch (e) {

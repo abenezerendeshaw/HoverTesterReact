@@ -105,7 +105,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.hover.react.tester"
+        applicationId "com.hululabs.hulupay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

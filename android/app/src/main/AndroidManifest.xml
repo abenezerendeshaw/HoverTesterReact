@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.hover.react.tester">
+  package="com.hululabs.hulupay">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -26,6 +26,6 @@
 
         <meta-data
             android:name="com.hover.ApiKey"
-            android:value="da40bbe717e16e654575b311688c0494"/>
+            android:value="834d7c7048e437cbb3fbda1a826faf2f"/>
     </application>
 </manifest>
